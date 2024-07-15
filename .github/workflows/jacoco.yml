@@ -15,7 +15,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        ref: 7c03bafe32b518182e09e92fa57358a01043a504
+        ref: 2707b191c8b829e6bed41cd1ec7bcc9125e02af5
   
     - name: Set up JDK 8 for project
       uses: actions/setup-java@v4
