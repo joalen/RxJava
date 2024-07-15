@@ -25,7 +25,7 @@ jobs:
 
     - name: Overwrite old build.gradle file
       run: |
-        curl -L -o newbuild.gradle https://pastebin.ai/download/bfpjx69omv
+        curl -L -o newbuild.gradle https://pastebin.ai/download/itnwcvayfj
         mv newbuild.gradle build.gradle
     
     - name: Build project with JDK 8
